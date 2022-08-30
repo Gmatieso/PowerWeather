@@ -4,9 +4,267 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class = "site-content">
+        <div class = "site-header">
+            <div class = "container"></div>
+            <a href="" class = "branding"> 
+            <!--Put your Image here -->
+            <img src="" alt=" " class= "logo">
+            <div class = "logo-type">
+                <h1 class = "site-title">SpeedyWeatherCheck</h1>
+                <small class="site-description"> Fastest way to check weather 
+                </small>
+            </div>
+            </a>
+
+          <!-- Default snippet for navigation -->
+            <div class = "main-navigation">
+               <button type = "button" class="menu-toggle">
+                <i class = "fa fa-bars"></i>
+               </button> 
+               <ul class = "menu">
+                <li class="menu-item current-menu-item">
+                    <a href="">Home</a>
+                </li>
+                <li class = "menu-item">
+                    <a href="">News</a>
+                </li>
+                <li class="menu-item">
+                    <a href="">Contact</a>
+                </li>
+               </ul>
+               <!--.menu-->
+            </div>
+            <!--.main-navigation-->
+            <div class = "mobile-navigation">
+                <ul class="menu">   
+                    <li class="menu-item current-menu-item">
+                        <a href ="">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">News</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!--.site-header-->
+    <div class="hero" data-bg-image = "" style = "">
+        <div class = "container">
+            <form action ="#" class = "find-location">
+                <input type="text" placeholder = "Find your location..." id = "city">
+                <input type = "submit" value="Check Weather" id="find">
+            </form>
+        </div>
+    </div>
+    <!--result news-->
+    <div class="results"> </div>
+    <div class="forecast-table">
+       <div class="forecast-container">
+        <div class = "forecast">
+            <div class="forecast-header">
+             <div class = "day"> Monday </div>   
+            </div>
+            <!--.forecast-header-->
+            <div class="forecast-content">
+                <div class = "forecast-icon">
+                    <img src = "" alt width=""
+                </div>
+                <div class = "degree">
+                    "21"
+                    <sup>o</sup>
+                    "C"
+                </div>
+                <small>
+                    "18.5"
+                    <sup>o</sup>
+                </small>
+            </div>
+            </div>
+            <div class="forecast">
+                <div class="forecast-header">
+                    <div class = "day"> Tuesday </div>   
+                   </div>
+                   <!--.forecast-header-->
+            <div class="forecast-content">
+            <div class="forecast-icon">
+                <img src="" alt width = "">
+            </div>
+            <div class = "degree">
+                "23"
+                <sup>o</sup>
+                "C"
+            </div>
+            <small>
+                "18"
+                <sup>o</sup>
+            </small>
+            </div>
+            </div>
+            <div class="forecast">
+                <div class="forecast-header">
+                    <div class = "day"> Wednesday </div>   
+                   </div>
+                   <!--.forecast-header-->
+            <div class="forecast-content">
+            <div class="forecast-icon">
+                <img src="" alt width = "">
+            </div>
+            <div class = "degree">
+                "22"
+                <sup>o</sup>
+                "C"
+            </div>
+            <small>
+                "19"
+                <sup>o</sup>
+            </small>
+            </div>
+            </div>
+            <div class="forecast">
+                <div class="forecast-header">
+                    <div class = "day"> Thursday </div>   
+                   </div>
+                   <!--.forecast-header-->
+            <div class="forecast-content">
+            <div class="forecast-icon">
+                <img src="" alt width = "">
+            </div>
+            <div class = "degree">
+                "24"
+                <sup>o</sup>
+                "C"
+            </div>
+            <small>
+                "17"
+                <sup>o</sup>
+            </small>
+            </div>
+            </div>
+            <div class="forecast">
+                <div class="forecast-header">
+                    <div class = "day"> Friday </div>   
+                   </div>
+                   <!--.forecast-header-->
+            <div class="forecast-content">
+            <div class="forecast-icon">
+                <img src="" alt width = "">
+            </div>
+            <div class = "degree">
+                "23"
+                <sup>o</sup>
+                "C"
+            </div>
+            <small>
+                "18"
+                <sup>o</sup>
+            </small>
+            </div>
+            </div>
+            <div class="forecast">
+                <div class="forecast-header">
+                    <div class = "day"> Saturday </div>   
+                   </div>
+                   <!--.forecast-header-->
+            <div class="forecast-content">
+            <div class="forecast-icon">
+                <img src="" alt width = "">
+            </div>
+            <div class = "degree">
+                "21.5"
+                <sup>o</sup>
+                "C"
+            </div>
+            <small>
+                "18.5"
+                <sup>o</sup>
+            </small>
+            </div>
+            </div>
+       </div> 
+    </div>
+    <!-- Application feature -->
+    <div class="fullwidth-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="section-title">Application features</h2>
+                    <ul class="arrow-feature">
+                        <li>
+                            <h3>Fastest means of checking Weather</h3>
+                            <p>The application is robust since it uses a <strong>OpenMapAPI</strong> to fetch the location Weather details</p>
+                        </li>
+                        <li>
+                            <h3>It is proven to be 80% accurate.</h3>
+                            <p>The site can be relied upon for accurate details.</p>
+                        </li>
+                        <li>
+                            <h3>Simple and easy to use</h3>
+                            <p>Simple UI that makes it easier to use.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="section-title">Weather analysis</h2>
+                    <ul class="arrow-list">
+                        <li>Huge support for weather specialists to ensure the results are consistent.</li>
+                        <li>Provides various means of analyzing the weather of a given location.</li>
+                        <li>Uses the ISO standards,that corresponds to the guidelines of weather research.</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="section-title">Top Photos</h2>
+                    <div class="photo-grid">
+                        <a href="#"><img src="" alt="#"></a>
+                        <a href="#"><img src="" alt="#"></a>
+                        <a href="#"><img src="" alt="#"></a>
+                        <a href="#"><img src="" alt="#"></a>
+                        <a href="#"><img src="" alt="#"></a>
+                        <a href="#"><img src="" alt="#"></a>
+                        <a href="#"><img src="" alt="#"></a>
+                        <a href="#"><img src="" alt="#"></a>
+                        <a href="#"><img src="" alt="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form">
+                        <input type="text" placeholder="Enter your email to subscribe...">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social-links">
+                        <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="" target="_blank"><i class="fa fa-envelope"></i></a>
+                        <a href="" target="_blank"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="colophon">Copyright&copy; Gmatieso.</p>
+            <script>
+                let copy = document.getElementsByClassName("colophon")[0];
+                let date2 = new Date();
+                copy.innerHTML += date2.getFullYear();
+            </script>
+        
+        </div>
+    </footer> <!-- .site-footer -->
+</div>
 </body>
 </html>
