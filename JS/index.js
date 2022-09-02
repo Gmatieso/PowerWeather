@@ -6,6 +6,9 @@ let temperature = document.querySelector('.temp');
 let Humidity = document.querySelector('.humidity');
 let windSpeed = document.querySelector('.wind');
 let Description = document.querySelector('.description');
+const likeButton = document.getElementById('like-button')
+const likeCount = document.getElementById('like-count');
+
 search.addEventListener('click',event =>{
     event.preventDefault();
     let locationSearch = locationForm.locationSearch.value;
