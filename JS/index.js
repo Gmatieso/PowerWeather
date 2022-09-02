@@ -9,9 +9,16 @@ let Description = document.querySelector('.description');
 const likeButton = document.getElementById('like-button')
 const likeCount = document.getElementById('like-count');
 
+
+// define likes count
+let likesCounter = 0;
+likeCount.textContent = `${ likesCounter } likes`;
+
 search.addEventListener('click',event =>{
     event.preventDefault();
     let locationSearch = locationForm.locationSearch.value;
+
+    
 
     // fetch data
 
