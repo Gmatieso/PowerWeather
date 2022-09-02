@@ -13,10 +13,10 @@ This Application consumes open Weather API, its useful if you generate the API K
 # Getting Started
 In order to get this Web  application  running , you need to:
 
-clone this project
-Import the project into visual Studio
-Open the Project in Visual Studio 
-Run the html in live Server to better interactivity
+1. clone this project
+2. Import the project into visual Studio
+3. Open the Project in Visual Studio 
+4. Run the html in live Server for  better interactivity
 
 # Support
 Found this project useful ❤️? Support by clicking the ⭐️ button on the upper right of this page. ✌️
