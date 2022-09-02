@@ -8,7 +8,7 @@ JavaScript: This makes The Webpage Interactive
 
 Css (Cascading Style Sheet): This makes the page Beutiful.
 
-This Application consumes open Weather API, its useful if you generate the API Key
+Hint! ✌️ This Application consumes open Weather API, its useful if you generate the API Key
 
 # Getting Started
 In order to get this Web  application  running , you need to:
