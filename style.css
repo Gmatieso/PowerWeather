@@ -21,10 +21,22 @@ li, a, button {
   color:#edf0f1;
   text-decoration: none;
 }
+
 .logo{
   cursor: pointer;
 }
 
+.site-title {
+  transition: all 0.3s ease 0s;
+}
+
+.site-title:hover {
+  color: #008a90;
+}
+
+.site-description:hover{
+  color:orangered;
+}
 button {
   padding: 9px 25px;
   background-color: rgb(0, 136, 169, 1);
