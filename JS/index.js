@@ -12,7 +12,7 @@ const likeCount = document.getElementById('like-count');
 
 // define likes count
 let likesCounter = 0;
-likeCount.textContent = `${ likesCounter } likes`;
+likeCount.textContent = `${ likesCounter } `;
 
 search.addEventListener('click',event =>{
     event.preventDefault();
@@ -36,5 +36,14 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${locationSearch}&appid
     
 })
 })
+
+// implementing increase likes function
+
+// listen to click event listener
+const incrementFunction = () => {
+    likesCounter++;
+    likeCount.textContent = `${ likesCounter } likes`;
+}
+likeButton.addEventListener('click', incrementFunction)
 
 
