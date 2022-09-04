@@ -35,9 +35,9 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${locationSearch}&appid
     Description.innerText = `${data.weather[0].description}`;
 
     icon.setAttribute('src', `https://openweathermap.org/img/wn/${ data.weather[0].icon }.png`)
-
-    
-    
+ 
+}).catch(data => {
+    city.innerHTML = "Error! Location Can't be Found"; 
 })
 })
 
