@@ -8,6 +8,7 @@ let windSpeed = document.querySelector('.wind');
 let Description = document.querySelector('.description');
 const likeButton = document.getElementById('like-button')
 const likeCount = document.getElementById('like-count');
+const icon = document.querySelector('.icon');
 
 
 // define likes count
@@ -25,13 +26,16 @@ search.addEventListener('click',event =>{
 fetch(`https://api.openweathermap.org/data/2.5/weather?q=${locationSearch}&appid=faa70cbaae7edf4ddc280057abe67d2c`)
 .then(res => res.json())
 .then(data => {
-    console.log(data)
+ 
     weatherLoading.classList.remove('weather-loading');
     city.innerHTML = `Weather in ${locationSearch}`;
     temperature.innerHTML = `${data.main.temp} K`;
     Humidity.innerHTML = `Humidity: ${data.main.humidity} % `;
     windSpeed.innerHTML = `WindSpeed: ${data.wind.speed} km/h`;
-    Description.innerHTML = data.weather.description;
+    Description.innerText = `${data.weather[0].description}`;
+
+    icon.setAttribute('src', `https://openweathermap.org/img/wn/${ data.weather[0].icon }.png`)
+
     
     
 })
