@@ -33,6 +33,6 @@ This is under the [MIT](LICENSE) license
 Copyright (c) {year} *{List of contributors or company name}*
 
 ## Author 
-[Geoffrey Matieso ](https://github.com/Gmatieso)
+[Geoffrey Matieso ](https://github.com/Gmatieso).
 
 
