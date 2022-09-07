@@ -32,4 +32,7 @@ Feel free to contribute in any way to the project from typos in docs to code rev
 This is under the [MIT](LICENSE) license
 Copyright (c) {year} *{List of contributors or company name}*
 
+## Author 
+[Geoffrey Matieso ](https://github.com/Gmatieso)
+
 
